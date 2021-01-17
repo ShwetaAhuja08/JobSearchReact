@@ -1,0 +1,44 @@
+.color-nav
+{
+    background-color:rgba(255, 99, 71, 0.5);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .my-nav-bar {
+    width: 100%; /* the parent must have 100% either */
+    overflow: hidden; /* hides overflow */
+    margin: 0;
+    padding: 0;
+    
+  }
+  .custom_nav_link{
+    align-self: flex-end!important; 
+  }
+  .dropdown-menu-right { 
+    right: 0; 
+    left: auto; 
+}
+.button
+{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.navbar-fixed-top {
+   /* Whatever you want. */
+    
+     height:80px;
+     
+}
+.dropdown
+{
+        margin-left:auto;
+      
+}
+h1 {display:inline;}
